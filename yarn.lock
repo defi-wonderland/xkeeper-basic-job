@@ -201,6 +201,16 @@
     solc-typed-ast "17.0.3"
     yargs "17.7.2"
 
+"@defi-wonderland/xkeeper-core-abi@0.0.0-1f3545aa":
+  version "0.0.0-1f3545aa"
+  resolved "https://registry.yarnpkg.com/@defi-wonderland/xkeeper-core-abi/-/xkeeper-core-abi-0.0.0-1f3545aa.tgz#9cb1839e2afe67f6734e370cbb8d54db4843f104"
+  integrity sha512-082WghQArU5Z6OTK2/8sOyQk+hHv/Wfm8VJsbkCho6FG1CJfgMQ6ft694wNs/yCNSy6cMYLGDzMcRyOfLful0w==
+  dependencies:
+    "@openzeppelin/contracts" "4.9.3"
+    ds-test "github:dapphub/ds-test#e282159"
+    forge-std "github:foundry-rs/forge-std#v1.5.6"
+    isolmate "github:defi-wonderland/isolmate#59e1804"
+
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz#c08679063f279615a3326583ba3a90d1d82cc721"
@@ -256,6 +266,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@openzeppelin/contracts@4.9.3":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.9.3.tgz#00d7a8cf35a475b160b3f0293a6403c511099364"
+  integrity sha512-He3LieZ1pP2TNt5JbkPA4PNT9WC3gOTOlDcFGJW4Le4QKqwmiNJCRt44APfxMxvq7OugU/cqYuPcSBzOw38DAg==
 
 "@scure/base@~1.1.0":
   version "1.1.5"
@@ -951,6 +966,10 @@ for-each@^0.3.3:
 "forge-std@github:foundry-rs/forge-std#4513bc2":
   version "1.7.6"
   resolved "https://codeload.github.com/foundry-rs/forge-std/tar.gz/4513bc2063f23c57bee6558799584b518d387a39"
+
+"forge-std@github:foundry-rs/forge-std#v1.5.6":
+  version "1.5.6"
+  resolved "https://codeload.github.com/foundry-rs/forge-std/tar.gz/e8a047e3f40f13fa37af6fe14e6e06283d9a060e"
 
 form-data@^4.0.0:
   version "4.0.0"
