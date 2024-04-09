@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.23;
+pragma solidity 0.8.19;
 
 import {BasicJob} from 'contracts/BasicJob.sol';
+import {BasicJobGelatoChecker} from 'contracts/BasicJobGelatoChecker.sol';
 import {Script} from 'forge-std/Script.sol';
 
 contract Deploy is Script {
@@ -13,6 +14,7 @@ contract Deploy is Script {
 
     vm.startBroadcast();
     new BasicJob{salt: _salt}();
+    new BasicJobGelatoChecker{salt: _salt}();
     vm.stopBroadcast();
   }
 }
